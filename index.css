@@ -30,6 +30,7 @@ header .name {
     text-transform: uppercase;
     padding: 10px;
     float: left;
+    cursor: default;
 }
 header ul {
     list-style: none;
@@ -75,6 +76,16 @@ header ul li a {
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+}
+.scdown {
+    color: rgb(211, 211, 211);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
     transform: translate(-50%, -50%);
 }
 
