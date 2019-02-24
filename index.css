@@ -17,8 +17,8 @@ header {
     font-size: 16px;
     margin: 0;
     background-image: linear-gradient(
-        #48406b88,
-        #48406b88
+        #6e6c5088,
+        #6e6c5088
       ), url("https://lonelyplanetwp.imgix.net/2015/02/River_Vibe_Bangkok-3a615142c237.jpg?fit=min&q=40&sharp=10&vib=20&w=1470");
     background-position: center;
     background-size: cover;
@@ -34,21 +34,36 @@ header .name {
 header ul {
     list-style: none;
     padding: 0;
+    height: 50px;
+    margin: 20px, 5px, 20px, 5px;
     float: right;
     display: flex;
+    align-items: center;
 }
-header ul a {
+header ul li {
     padding: 12px 30px;
     cursor: pointer;
+}
+header ul li a {
     color: black;
 }
 .button {
     border-radius: 30px;
     transition: .3s;
 }
+.button a {
+    transition: .3s;
+}
 .button:hover {
     background-color: #e6ba69ef;
+}
+.button:hover a {
     color: white;
+}
+.lbreak {
+    width: 100%;
+    height: 12px;
+    background-color: black;
 }
 
 .title {
