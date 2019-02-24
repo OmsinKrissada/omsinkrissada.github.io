@@ -17,7 +17,7 @@ header {
     background-size: cover;
 }
 header .name {
-    color: rgb(83, 75, 75);
+    color: rgb(27, 5, 78);
     text-transform: uppercase;
     float: left;
 }
@@ -41,6 +41,9 @@ header ul a {
     color: white;
 }
 
+.title {
+    text-align: center;
+}
 
 
 footer {
