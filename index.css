@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0;
     padding: 0;
@@ -12,13 +16,19 @@ header {
     box-sizing: border-box;
     font-size: 16px;
     margin: 0;
-    background-image: url("https://lonelyplanetwp.imgix.net/2015/02/River_Vibe_Bangkok-3a615142c237.jpg?fit=min&q=40&sharp=10&vib=20&w=1470");
+    background-image: linear-gradient(
+        #48406b88,
+        #48406b88
+      ), url("https://lonelyplanetwp.imgix.net/2015/02/River_Vibe_Bangkok-3a615142c237.jpg?fit=min&q=40&sharp=10&vib=20&w=1470");
     background-position: center;
     background-size: cover;
 }
 header .name {
     color: rgb(27, 5, 78);
+    font-size: 30px;
+    border-style: solid;
     text-transform: uppercase;
+    padding: 10px;
     float: left;
 }
 header ul {
@@ -42,10 +52,23 @@ header ul a {
 }
 
 .title {
+    color: whitesmoke;
+    font-size: 50px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
 footer {
-    
+    background-color: grey;
+    height: 10vh;
+}
+.copy {
+    font-size: 16px;
+    text-align: bottom;
 }
