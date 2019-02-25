@@ -42,6 +42,8 @@ header ul {
     display: flex;
     align-items: center;
     position: fixed;
+    top: 0;
+    right: 0;
 }
 header ul li {
     padding: 12px 30px;
