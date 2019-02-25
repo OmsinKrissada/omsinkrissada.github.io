@@ -31,7 +31,7 @@ header .name {
     padding: 10px;
     float: left;
     cursor: default;
-    position: fixed;
+    position: sticky;
 }
 header ul {
     list-style: none;
@@ -41,9 +41,9 @@ header ul {
     float: right;
     display: flex;
     align-items: center;
-    position: fixed;
+    position: sticky;
     top: 20px;
-    right: 0;
+    right: 5px;
 }
 header ul li {
     padding: 12px 30px;
