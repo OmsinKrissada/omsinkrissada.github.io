@@ -42,7 +42,7 @@ header ul {
     display: flex;
     align-items: center;
     position: fixed;
-    top: 0;
+    top: 20px;
     right: 0;
 }
 header ul li {
