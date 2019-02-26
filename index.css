@@ -40,7 +40,7 @@ nav .name {
     padding: 10px;
     margin: 10px;
     float: left;
-    cursor: default;
+    cursor: pointer;
     transition: 1s;
 }
 nav ul {
@@ -102,6 +102,10 @@ nav ul li a {
     left: 50%;
     bottom: 0;
     transform: translate(-50%, -50%);
+}
+.hide {
+    color: transparent;
+    transition: .5s;
 }
 .black {
     background-color: black;
