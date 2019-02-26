@@ -29,6 +29,7 @@ nav {
     justify-content: space-between;
     position: fixed;
     align-items: center;
+    z-index: 10;
     transition: 1s;
 }
 nav .name {
@@ -135,9 +136,15 @@ main {
     width: 80%;
 }
 .gridarea {
-    display: flex;
+    display: table;
     justify-content: space-between;
-    flex-direction: column;
+}
+.gridarea ul {
+    position: absolute;
+    z-index: 1;
+}
+.gridarea ul li a {
+    color: black;
 }
 #contenthead {
     background-color: aqua;
