@@ -16,7 +16,7 @@ header {
     font-size: 16px;
     margin: 0;
     background-image: linear-gradient(
-        #72727288,
+        #675d7288,
         #72727288
       ), url("https://lonelyplanetwp.imgix.net/2015/02/River_Vibe_Bangkok-3a615142c237.jpg?fit=min&q=40&sharp=10&vib=20&w=1470");
     background-position: center;
@@ -77,7 +77,7 @@ nav ul li a {
 .lbreak {
     width: 100%;
     height: 3px;
-    background-color: black;
+    background-color: #0f0050;
 }
 
 .title {
@@ -108,7 +108,7 @@ nav ul li a {
     transition: .5s;
 }
 .black {
-    background-color: black;
+    background-color: #0f0050;
 }
 .black h2{
     color: white;
@@ -118,10 +118,34 @@ nav ul li a {
     text-decoration: none;
 }
 
-
-.content {
+main {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     height: 100vh;
+}
+.content {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 100px;
+    height: 500px;
+    width: 80%;
+}
+.gridarea {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#contenthead {
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
 }
 
 
