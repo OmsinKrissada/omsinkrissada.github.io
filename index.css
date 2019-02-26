@@ -25,8 +25,11 @@ header {
 nav {
     height: 80px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
     position: fixed;
-    transition: .5s;
+    align-items: center;
+    transition: 1s;
 }
 nav .name {
     color: rgb(27, 5, 78);
@@ -38,16 +41,17 @@ nav .name {
     margin: 10px;
     float: left;
     cursor: default;
+    transition: 1s;
 }
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 10px;
     height: 50px;
     float: right;
     display: flex;
     align-items: center;
-    margin-top: 20px;
-    margin-right: 10px;
+    right: 10px;
 }
 nav ul li {
     margin-left: 5px;
@@ -57,12 +61,10 @@ nav ul li {
 nav ul li a {
     color: black;
     font-family: Muli;
+    transition: 1s;
 }
 .button {
     border-radius: 30px;
-    transition: .3s;
-}
-.button a {
     transition: .3s;
 }
 .button:hover {
@@ -70,10 +72,11 @@ nav ul li a {
 }
 .button:hover a {
     color: white;
+    transition: color .3s;
 }
 .lbreak {
     width: 100%;
-    height: 12px;
+    height: 3px;
     background-color: black;
 }
 
@@ -111,11 +114,30 @@ nav ul li a {
     text-decoration: none;
 }
 
+
+.content {
+    display: flex;
+    height: 100vh;
+}
+
+
+
 footer {
-    background-color: grey;
-    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
 }
 .copy {
+    margin: 10px;
+    float: left;
     font-size: 16px;
     text-align: bottom;
+}
+.exlink {
+    margin: 10px;
+    float: right;
+    flex-direction: column;
 }
