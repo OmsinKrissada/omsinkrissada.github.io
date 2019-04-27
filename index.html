@@ -11,10 +11,10 @@
 <body>
     <header>
         <nav>
-            <h2 class="name"><a href="https://omsinkrissada.github.io"></a>OmSource</h2>
+            <a href="#"><h2 class="name">OmSource</h2></a>
             <ul>
                 <li><a href="#">About me</a></li>
-                <li><a href="#">Downloads</a></li>
+                <li><a href="/download.html">Downloads</a></li>
                 <li class="button"><a href="https://github.com/OmsinKrissada" target="blank">My Github Profile</a></li>
             </ul>
         </nav>
@@ -34,8 +34,8 @@
             <div class="list_head">
                 <h1>Tic Tac Toe Game</h1>
                 <ul>
-                    <li class="button" id="viewsourceButton"><a href="#">View Source</a></li>
-                   <li class="button" id="downloadButton"><a href="#">Download</a></li>
+                    <li class="button" id="viewsourceButton"><a href="https://github.com/OmsinKrissada/Tic-Tac-Toe-Game" target="_blank">View Source</a></li>
+                   <li class="button" id="downloadButton"><a href="file/Tic-Tac-Toe.zip">Download</a></li>
                 </ul>
             </div>
             <div class="list_content">
@@ -63,11 +63,13 @@
         $(window).on("scroll", function() {
               if($(window).scrollTop()) {
                     $('nav').addClass('black');
+                    $('nav .name a').addClass('black');
                     $('.scdown').addClass('hide');
               }
     
               else {
                     $('nav').removeClass('black');
+                    $('nav .name a').removeClass('black');
                     $('.scdown').removeClass('hide');
               }
         })

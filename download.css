@@ -1,0 +1,93 @@
+html {
+    position: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 2.5vmin;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    color: white;
+}
+header {
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+}
+nav {
+    width: 100%;
+    min-width: 720px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    z-index: 10;
+    transition: 1s background-color;
+}
+nav .name {
+    color: rgb(27, 5, 78);
+    font-size: 2rem;
+    font-family: Raleway;
+    border-style: solid;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    cursor: pointer;
+    transition: 1s color;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    height: 50px;
+    float: right;
+    display: flex;
+    align-items: center;
+    right: 10px;
+}
+nav ul li {
+    margin-left: 5px;
+    padding: 12px 30px;
+    cursor: pointer;
+}
+nav ul li a {
+    color: black;
+    font-family: Muli;
+    font-size: 1rem;
+    transition: 1s;
+}
+.button {
+    border-radius: 30px;
+    transition: .3s;
+}
+.button:hover {
+    background-color: #e6ba69ef;
+}
+.button:hover a {
+    color: rgb(12, 38, 63);
+    transition: color font-size .3s;
+    font-size: 3vmin;
+}
+.black {
+    background-color: #0f0050;
+}
+.black h2{
+    color: white;
+}
+.black a{
+    color: white;
+    text-decoration: none;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
