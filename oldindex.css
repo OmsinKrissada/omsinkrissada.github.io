@@ -1,0 +1,216 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 2.5vmin;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(48, 68, 109);
+    color: white;
+}
+header {
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    background-image: linear-gradient(
+        #675d7288,
+        #72727288
+      ), url("https://lonelyplanetwp.imgix.net/2015/02/River_Vibe_Bangkok-3a615142c237.jpg?fit=min&q=40&sharp=10&vib=20&w=1470");
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    width: 100%;
+    height: 12.5vh;
+    min-width: 720px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    z-index: 10;
+    transition: 1s background-color;
+}
+nav .name {
+    color: rgb(27, 5, 78);
+    font-size: 2rem;
+    font-family: Raleway;
+    border-style: solid;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    cursor: pointer;
+    transition: 1s color;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    height: 50px;
+    float: right;
+    display: flex;
+    align-items: center;
+    right: 10px;
+}
+nav ul li {
+    margin-left: 5px;
+    padding: 12px 30px;
+    cursor: pointer;
+}
+nav ul li a {
+    color: black;
+    font-family: Muli;
+    font-size: 1rem;
+    transition: 1s;
+}
+.button {
+    border-radius: 30px;
+    transition: .3s;
+}
+.button:hover {
+    background-color: #e6ba69ef;
+}
+.button:hover a {
+    color: rgb(12, 38, 63);
+    transition: color font-size .3s;
+    font-size: 3vmin;
+}
+.lbreak {
+    width: 100%;
+    height: 3px;
+    background-color: #0f0050;
+}
+
+.title {
+    color: whitesmoke;
+    font-family: Muli;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.scdown {
+    color: rgb(211, 211, 211);
+    font-family: 'Noto Sans';
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0%);
+}
+.hide {
+    color: transparent;
+    transition: .5s color;
+}
+.black {
+    background-color: #0f0050;
+}
+.black h2{
+    color: white;
+}
+.black a{
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    margin: 100px;
+    height: 500px;
+    width: 80%;
+}
+.list h1 {
+    width: 100%;
+}
+.list ul {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 1;
+    list-style: none;
+    display: flex;
+}
+.list ul li {
+    margin-right: 5%;
+    width: 20vmin;
+    padding: 2.5vmin;
+    text-align: center;
+}
+.list ul li a {
+    color: white;
+    transition: .3s;
+}
+.list ul li:hover {
+    transition: .3s;
+    padding-top: 2.5vmin;
+    padding-bottom: 2.5vmin;
+    padding-left: 4vmin;
+    padding-right: 4vmin;
+    cursor: pointer;
+}
+.list_head {
+    margin: 0;
+}
+.list_content {
+    margin: 0;
+}
+.list h2 {
+    background-color: rgb(74, 134, 134);
+}
+.list img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+    width: 100%;
+    min-width: 615px;
+    color: whitesmoke;
+}
+.copy {
+    margin: 10px;
+    float: left;
+    text-align: bottom;
+}
+.exlink {
+    margin: 10px;
+    float: right;
+    flex-direction: column;
+}
+
+
+
+#viewsourceButton:hover {
+    background-color: rgb(106, 136, 163);
+}
+#downloadButton:hover {
+    background-color: rgb(48, 163, 48);
+}

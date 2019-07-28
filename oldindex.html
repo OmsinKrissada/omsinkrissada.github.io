@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>OMSOURCE | HOME</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Muli|Lobster|Noto+Sans:300,500,700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#"><h2 class="name">OmSource</h2></a>
+            <ul>
+                <li><a href="/about-me.html">About me</a></li>
+                <li><a href="/download.html">Downloads</a></li>
+                <li class="button"><a href="https://github.com/OmsinKrissada" target="blank">My Github Profile</a></li>
+            </ul>
+        </nav>
+        <div class="title">
+            <h3>My Projects</h3>
+        </div>
+        <div class="scdown">
+            <p>Scroll Down</p>
+            <p>v</p>
+        </div>
+    </header>
+
+    <!--<div class="lbreak"></div>-->
+
+    <main>
+        <div class="list">
+            <div class="list_head">
+                <h1>Tic Tac Toe Game</h1>
+                <ul>
+                    <li class="button" id="viewsourceButton"><a href="https://github.com/OmsinKrissada/Tic-Tac-Toe-Game" target="blank">View Source</a></li>
+                   <li class="button" id="downloadButton"><a href="file/Tic-Tac-Toe.zip">Download</a></li>
+                </ul>
+            </div>
+            <div class="list_content">
+                <img src="img/ox-vector.png" style="width: 50vmin; height: 50vmin;" alt="O-X Vector Image">
+                <h2>Description</h2>
+                <p class="description">This is the first console game I've ever made. Tic Tac Toe(aka O-X game) is the 1v1 board game on originally 3 by 3 tiles. Now comes with adjustable board size from 3 x 3 to 100 x 100 sq.tile!</p>
+            </div>
+        </div>
+    </main>
+
+    <div class="lbreak"></div>
+
+    <footer>
+        <div>
+            <p class="copy">&copy 2019 Krissada Singhakachain. All Rights Reserved.</p>
+            <p class="copy"><a href="https://github.com/OmsinKrissada/omsinkrissada.github.io" target="blank" style="color: whitesmoke;">See this page source</a></p>
+            </div>
+            <div class="exlink">
+                <p>Email: omsin_47@hotmail.com</p>
+            </div>
+    </footer>
+
+    <script type="text/javascript">
+
+
+        // Scrolling Effect
+    
+        $(window).on("scroll", function() {
+              if($(window).scrollTop()) {
+                    $('nav').addClass('black');
+                    $('nav .name a').addClass('black');
+                    $('.scdown').addClass('hide');
+              }
+    
+              else {
+                    $('nav').removeClass('black');
+                    $('nav .name a').removeClass('black');
+                    $('.scdown').removeClass('hide');
+              }
+        })
+    
+    
+    </script>
+</body>
+</html>
+
