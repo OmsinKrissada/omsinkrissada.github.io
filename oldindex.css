@@ -20,8 +20,7 @@ header {
     background-image: linear-gradient(
         #675d7288,
         #72727288
-      ), url("");
-      /* https://lonelyplanetwp.imgix.net/2015/02/River_Vibe_Bangkok-3a615142c237.jpg?fit=min&q=40&sharp=10&vib=20&w=1470 */
+      ), url("https://lonelyplanetwp.imgix.net/2015/02/River_Vibe_Bangkok-3a615142c237.jpg?fit=min&q=40&sharp=10&vib=20&w=1470");
     background-position: center;
     background-size: cover;
 }
